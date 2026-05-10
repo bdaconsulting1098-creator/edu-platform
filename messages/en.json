@@ -1,0 +1,491 @@
+{
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "about": "About",
+    "contact": "Contact",
+    "language": "中文"
+  },
+  "hero": {
+    "eyebrow": "Your Career Path Starts Here",
+    "headline": "Land Your Dream Job in Canada",
+    "subheadline": "Practical training programs designed for international students and immigrants — from data analytics to AI skills, we help you stand out in the Canadian job market.",
+    "cta": "Explore Courses",
+    "ctaSecondary": "Free Consultation"
+  },
+  "stats": {
+    "students": "Graduates",
+    "rate": "Job Placement Rate",
+    "courses": "Programs",
+    "rating": "Student Rating"
+  },
+  "courses": {
+    "eyebrow": "Our Programs",
+    "headline": "Choose Your Path to Success",
+    "subheadline": "Each program is designed with real Canadian job market requirements in mind, taught by industry experts with 1-on-1 career coaching included.",
+    "viewAll": "View All Courses",
+    "viewDetails": "View Details",
+    "enrollNow": "Enroll Now",
+    "popular": "Most Popular",
+    "level": "Level",
+    "duration": "Duration",
+    "format": "Format",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "online": "Online Live",
+    "hybrid": "Hybrid",
+    "inPerson": "In-Person",
+    "curriculum": "Course Curriculum",
+    "schedule": "Class Schedule",
+    "whatYouGet": "What's Included",
+    "items": {
+      "level1": {
+        "tag": "Best Seller",
+        "title": "Data Analytics Fundamentals",
+        "description": "Master Power BI, Tableau, and SQL with AI integration. Perfect for beginners starting their data analytics journey in Canada.",
+        "curriculum": [
+          "Power BI Desktop & Data Modeling",
+          "DAX & Data Visualization",
+          "Tableau Dashboard Design",
+          "SQL Fundamentals & Advanced Queries",
+          "AI-Assisted Analytics",
+          "Capstone Project"
+        ],
+        "period": "10 weeks",
+        "students": "520+",
+        "level": "Beginner",
+        "schedule": "Every Thursday 8-10pm EST"
+      },
+      "advanced": {
+        "tag": "Popular",
+        "title": "Data Analytics Advanced",
+        "description": "Advanced Python, PySpark, and Machine Learning for data professionals. Includes big data processing, A/B testing, and ML pipelines.",
+        "curriculum": [
+          "Advanced Python for Analytics",
+          "Data Pipeline Automation",
+          "Sales & Marketing Analytics",
+          "Big Data with PySpark",
+          "A/B Testing & Experimentation",
+          "Machine Learning Applications"
+        ],
+        "period": "12 weeks",
+        "students": "380+",
+        "level": "Intermediate",
+        "schedule": "Every Sunday 8-10pm EST"
+      },
+      "ai": {
+        "tag": "New",
+        "title": "AI Practical Training Camp",
+        "description": "Build enterprise GenAI applications with RAG, Fine-tuning, and AI Agents. Learn Gemini, Google Cloud Vertex AI, and Databricks.",
+        "curriculum": [
+          "LLM Fundamentals (Gemini)",
+          "Retrieval-Augmented Generation (RAG)",
+          "Fine-tuning & Model Deployment",
+          "AI Agents Development",
+          "Web Application Deployment",
+          "Production GenAI Projects"
+        ],
+        "period": "8 weeks",
+        "students": "280+",
+        "level": "Intermediate",
+        "schedule": "Every Tuesday 8-10pm EST"
+      },
+      "project": {
+        "tag": "",
+        "title": "Data Analytics Project Co-op",
+        "description": "Applied real-world business data analysis projects. Build your portfolio with Customer Retention, Digital Marketing, Supply Chain, and Retail Analytics.",
+        "curriculum": [
+          "Customer Retention Analysis",
+          "Digital Marketing Analytics",
+          "Retail Supply Chain Optimization",
+          "Retail Shop Analytics",
+          "Portfolio Development",
+          "Job Interview Preparation"
+        ],
+        "period": "8 weeks",
+        "students": "290+",
+        "level": "Intermediate",
+        "schedule": "Every Tuesday 8-10pm EST"
+      }
+    }
+  },
+  "video": {
+    "eyebrow": "See It In Action",
+    "headline": "What You'll Build",
+    "subheadline": "Watch a real data pipeline project built by our students — the same hands-on skills you'll learn in class."
+  },
+  "features": {
+    "eyebrow": "Why Choose Us",
+    "headline": "Everything You Need to Succeed",
+    "subheadline": "We don't just teach skills — we guide you through the entire journey from student to professional in Canada.",
+    "items": {
+      "expert": {
+        "title": "Industry Expert Instructors",
+        "description": "All our instructors are working professionals with 5+ years in Canadian companies, bringing real-world experience to every class."
+      },
+      "career": {
+        "title": "1-on-1 Career Coaching",
+        "description": "Dedicated career coaches help with resume optimization, interview prep, and job matching throughout your program."
+      },
+      "network": {
+        "title": "Alumni Network",
+        "description": "Join 1,500+ alumni in our exclusive community — get referrals, job leads, and mentorship from those who've been where you are."
+      },
+      "flexible": {
+        "title": "Flexible Learning",
+        "description": "Online live sessions with recordings. Weekend and evening batches available. Study while you work or settle in."
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Student Stories",
+    "headline": "From Our Alumni",
+    "subheadline": "Real stories from real students who transformed their careers in Canada.",
+    "items": {
+      "wei": {
+        "quote": "I landed a Data Analyst role at a Toronto fintech company within 3 months of finishing the program. The portfolio project was exactly what Canadian employers wanted to see.",
+        "name": "Wei Chen",
+        "title": "Data Analyst @ Fintech Co., Toronto",
+        "from": "Previously: Accounting, Shanghai"
+      },
+      "liu": {
+        "quote": "The AI bootcamp gave me the skills to transition from backend dev to ML engineer. My salary increased 40% and I now work fully remote with a US company.",
+        "name": "Yuting Liu",
+        "title": "ML Engineer @ Remote US Tech Co.",
+        "from": "Previously: Software Dev, Beijing"
+      },
+      "zhang": {
+        "quote": "The immigration guidance was invaluable. They helped me understand the Canadian hiring process and I received my first job offer within 6 weeks of landing.",
+        "name": "David Zhang",
+        "title": "Business Analyst @ E-commerce, Vancouver",
+        "from": "Previously: Marketing, Hong Kong"
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "Start Today",
+    "headline": "Ready to Launch Your Canadian Career?",
+    "subheadline": "Join thousands of international professionals who've made Canada their home. Your journey starts with one click.",
+    "button": "Book Free Consultation",
+    "note": "No commitment required. Free 15-min career assessment included."
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "headline": "We're Here to Help",
+    "subheadline": "Have questions? Want to learn more about our programs? Reach out and we'll get back to you within 24 hours.",
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "interest": "Interested Program",
+      "selectCourse": "Select a program...",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "booking": {
+      "title": "Book a Free Consultation",
+      "description": "Schedule a 15-minute call with our advisors to discuss your goals and find the right program.",
+      "button": "Schedule Call"
+    },
+    "wechat": {
+      "title": "WeChat / 微信",
+      "name": "Charlene 二四 休",
+      "qrLabel": "Scan to Add on WeChat",
+      "qrLabelZh": "扫二维码，添加我为朋友"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "collection": {
+      "title": "Information We Collect",
+      "content": "We collect information you provide directly to us, such as when you fill out a form, subscribe to our newsletter, or contact us for support. This may include your name, email address, phone number, and any other information you choose to provide."
+    },
+    "usage": {
+      "title": "How We Use Your Information",
+      "content": "We use the information we collect to provide, maintain, and improve our services, to communicate with you, and to develop new services. We may also use your information to send you marketing and promotional communications."
+    },
+    "sharing": {
+      "title": "Information Sharing",
+      "content": "We do not sell your personal information. We may share your information with third-party service providers who perform services on our behalf, such as payment processing and email delivery."
+    },
+    "security": {
+      "title": "Data Security",
+      "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at hello@canadacareer.ca."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using our services, you accept and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our services."
+    },
+    "services": {
+      "title": "Our Services",
+      "content": "CanadaCareer provides career training programs, coaching services, and educational content. We reserve the right to modify or discontinue any service at any time."
+    },
+    "payment": {
+      "title": "Payment Terms",
+      "content": "Payment is due at the time of enrollment. We accept major credit cards and other payment methods as displayed on our website. All fees are in Canadian dollars unless otherwise stated."
+    },
+    "refund": {
+      "title": "Refund Policy",
+      "content": "We offer a full refund within 7 days of enrollment if you are not satisfied with the program. After 7 days, refunds are prorated based on the number of sessions attended."
+    },
+    "intellectual": {
+      "title": "Intellectual Property",
+      "content": "All course materials, videos, and content provided are the property of CanadaCareer and are protected by copyright laws. You may not reproduce, distribute, or share these materials without written permission."
+    }
+  },
+  "footer": {
+    "tagline": "Empowering international talents to succeed in Canada.",
+    "quickLinks": "Quick Links",
+    "programs": "Programs",
+    "contact": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "addressValue": "Toronto, Ontario, Canada",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "headline": "Our Story",
+    "intro": "Founded by immigrants, for immigrants. We understand the Canadian job market because we've been through it.",
+    "mission": {
+      "eyebrow": "Our Mission",
+      "headline": "Closing the Gap Between International Experience and Canadian Success",
+      "content": "When we came to Canada as international students and immigrants, we faced the same challenges you face today: foreign credentials not recognized, lack of Canadian work experience, and not knowing how to network. We built CanadaCareer to solve those problems — with practical skills, real connections, and honest guidance."
+    },
+    "stats": {
+      "location": "Toronto, Ontario",
+      "locationSub": "Canada's gateway city",
+      "alumni": "1,500+ Alumni",
+      "alumniSub": "Across Canada & beyond",
+      "rating": "4.9/5 Rating",
+      "ratingSub": "From 400+ reviews"
+    },
+    "team": {
+      "eyebrow": "Meet the Team",
+      "headline": "Your Guides on This Journey",
+      "members": {
+        "sarah": {
+          "name": "Sarah Liu",
+          "role": "Founder & CEO",
+          "bio": "Former HR Director at RBC. 10+ years helping newcomers land their first Canadian job."
+        },
+        "michael": {
+          "name": "Michael Zhang",
+          "role": "Head of Data Programs",
+          "bio": "Senior Data Scientist at a Toronto fintech. Built 3 analytics curricula for newcomers."
+        },
+        "amy": {
+          "name": "Amy Wang",
+          "role": "AI Program Lead",
+          "bio": "ML Engineer at a US tech giant (remote). Passionate about making AI accessible."
+        },
+        "james": {
+          "name": "James Chen",
+          "role": "Career Coach",
+          "bio": "Certified Canadian career counselor. Has helped 800+ immigrants with resume & interview prep."
+        }
+      }
+    },
+    "cta": {
+      "headline": "Ready to write your own story?",
+      "button": "Get in Touch"
+    }
+  },
+  "workshops": {
+    "eyebrow": "Free Learning Resources",
+    "headline": "Victoria Data Workshop Recordings",
+    "subheadline": "Watch free workshop recordings and learn data analytics skills.",
+    "items": [
+      {
+        "title": "Data Tech Interview Guide",
+        "videoId": "-Y-8BFE5lpM"
+      },
+      {
+        "title": "24-Hour Data Interview Masterclass",
+        "videoId": "tBpcm-OF0J0"
+      },
+      {
+        "title": "SQL Interview Questions",
+        "videoId": "litoluZCnXo"
+      },
+      {
+        "title": "Free Python Data Analytics",
+        "videoId": "3ne4lKYhMmE"
+      },
+      {
+        "title": "Python Interview and Applications",
+        "videoId": "9bAY2E2pfRE"
+      },
+      {
+        "title": "Popular AI Data Tools",
+        "videoId": "fJURzCi6CEA"
+      },
+      {
+        "title": "Canvas Basics for Analysts",
+        "videoId": "LUkPjhFY3BQ"
+      }
+    ]
+  },
+  "success": {
+    "eyebrow": "Student Success Stories",
+    "headline": "From Zero to Data Pro — Real Career Transformations",
+    "subheadline": "Watch and read how real students went from no Canadian experience to landing coveted data jobs.",
+    "videoSection": "Video Testimonials",
+    "storiesSection": "Success Stories",
+    "watchVideo": "Watch Story",
+    "viewOffer": "View Offer",
+    "videos": [
+      {
+        "name": "Russel",
+        "platform": "youtube",
+        "videoId": "xzROxVN3GcI",
+        "result": "Data Analyst",
+        "note": "Victoria Success Story",
+        "thumbnail": "/images/students/yt_russel.jpg"
+      },
+      {
+        "name": "Linda",
+        "platform": "youtube",
+        "videoId": "QaNCyE6GOig",
+        "result": "Data Analyst",
+        "note": "Victoria Class",
+        "thumbnail": "/images/students/yt_linda.jpg"
+      },
+      {
+        "name": "Anna",
+        "platform": "youtube",
+        "videoId": "aq0i5swhoCI",
+        "result": "Data Analyst",
+        "note": "Victoria Class",
+        "thumbnail": "/images/students/yt_anna.jpg"
+      },
+      {
+        "name": "James",
+        "platform": "youtube",
+        "videoId": "yCCGk5tCHZM",
+        "result": "Data Analyst",
+        "note": "Victoria Class",
+        "thumbnail": "/images/students/yt_james.jpg"
+      },
+      {
+        "name": "Sue",
+        "platform": "youtube",
+        "videoId": "EysRopcGQIk",
+        "result": "Data Analyst",
+        "note": "10 Years US → $80K USD/yr",
+        "thumbnail": "/images/students/yt_sue.jpg"
+      },
+      {
+        "name": "COCO",
+        "platform": "vimeo",
+        "videoId": "1146668304",
+        "result": "Data Analyst",
+        "note": "01:07:45 in Video",
+        "thumbnail": "/images/students/page_25.png"
+      },
+      {
+        "name": "Landon",
+        "platform": "vimeo",
+        "videoId": "1161169519",
+        "result": "Data Scientist",
+        "note": "$100K+ / yr Physics → DS",
+        "thumbnail": "/images/students/page_09.png"
+      }
+    ],
+    "stories": [
+      {
+        "name": "Yvonne",
+        "from": "10-Year Nurse",
+        "to": "BDA",
+        "salary": "$100K+ USD/yr",
+        "location": "Silicon Valley",
+        "quote": "For beginners, Professor Zhu's course is really excellent.",
+        "tag": "Career Pivot",
+        "photo": "/images/students/page_12.png"
+      },
+      {
+        "name": "Derrick",
+        "from": "Convenience Store Worker",
+        "to": "Bank Data Analyst",
+        "salary": "2 Months",
+        "location": "Canada",
+        "quote": "One interview and I got the job. Skills were exactly what employers wanted.",
+        "tag": "Fast Track",
+        "photo": "/images/students/page_14.png"
+      },
+      {
+        "name": "Rui",
+        "from": "Business Major, Zero Data",
+        "to": "Budget Analyst",
+        "salary": "$85K USD/yr",
+        "location": "USA",
+        "quote": "5 rounds of interviews, every one coached by Professor Zhu personally.",
+        "tag": "5 Interviews",
+        "photo": "/images/students/page_02.png"
+      },
+      {
+        "name": "Xiao Wu",
+        "from": "Engineering Background",
+        "to": "Gov Data Analyst",
+        "salary": "$100K/yr",
+        "location": "Canada",
+        "quote": "SQL, Tableau, AI — three months and I landed the government job.",
+        "tag": "Government Role",
+        "photo": "/images/students/page_10.png"
+      },
+      {
+        "name": "Kate",
+        "from": "UBC Statistics Grad",
+        "to": "Data Operations Associate",
+        "salary": "US Investment Firm",
+        "location": "USA",
+        "quote": "The internship program was huge for resume screening and background checks.",
+        "tag": "New Grad",
+        "photo": "/images/students/page_24.png"
+      },
+      {
+        "name": "UBC Math Graduate",
+        "from": "Math Major",
+        "to": "Big 5 Bank BDA",
+        "salary": "10 Months",
+        "location": "Canada",
+        "quote": "Projects on resume were the main reason I got selected. Applied to 100+ jobs.",
+        "tag": "Big 5 Bank",
+        "photo": "/images/students/page_03.png"
+      },
+      {
+        "name": "Landon",
+        "from": "Physics Major",
+        "to": "Data Scientist",
+        "salary": "$100K+/yr",
+        "location": "Automotive Tier 1",
+        "quote": "Physics to DS. Predictive maintenance with Python and databases.",
+        "tag": "Data Scientist",
+        "photo": "/images/students/page_09.png"
+      },
+      {
+        "name": "Tech Support Hire",
+        "from": "Course Graduate",
+        "to": "Technical Support Analyst",
+        "salary": "Job Offer",
+        "location": "Canada",
+        "quote": "Mock interview practice made all the difference.",
+        "tag": "New Offer",
+        "photo": "/images/students/page_06.png"
+      }
+    ]
+  }
+}

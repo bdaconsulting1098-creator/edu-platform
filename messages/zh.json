@@ -1,0 +1,491 @@
+{
+  "nav": {
+    "home": "首页",
+    "courses": "课程",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "language": "English"
+  },
+  "hero": {
+    "eyebrow": "你的职场起跑线",
+    "headline": "在加拿大，找到你理想的工作",
+    "subheadline": "专为国际学生和移民设计的实战培训课程——从数据分析到AI技能，帮助你在加拿大就业市场中脱颖而出。",
+    "cta": "探索课程",
+    "ctaSecondary": "免费咨询"
+  },
+  "stats": {
+    "students": "毕业学员",
+    "rate": "就业率",
+    "courses": "培训项目",
+    "rating": "学员评分"
+  },
+  "courses": {
+    "eyebrow": "我们的项目",
+    "headline": "选择你的成功之路",
+    "subheadline": "每个项目都根据加拿大真实就业市场需求设计，由行业专家授课，包含1对1职业规划辅导。",
+    "viewAll": "查看全部课程",
+    "viewDetails": "查看详情",
+    "enrollNow": "立即报名",
+    "popular": "最受欢迎",
+    "level": "难度",
+    "duration": "时长",
+    "format": "上课形式",
+    "beginner": "入门",
+    "intermediate": "进阶",
+    "advanced": "高级",
+    "online": "在线直播",
+    "hybrid": "混合式",
+    "inPerson": "线下授课",
+    "curriculum": "课程大纲",
+    "schedule": "上课时间",
+    "whatYouGet": "你将获得",
+    "items": {
+      "level1": {
+        "tag": "最畅销",
+        "title": "数据分析入门班",
+        "description": "掌握 Power BI、Tableau 和 SQL，并融入AI辅助分析。适合零基础开始在加拿大从事数据分析的学员。",
+        "curriculum": [
+          "Power BI Desktop 与数据建模",
+          "DAX 与数据可视化",
+          "Tableau 仪表盘设计",
+          "SQL 基础与高级查询",
+          "AI 辅助数据分析",
+          "结业项目"
+        ],
+        "period": "10 周",
+        "students": "520+",
+        "level": "入门",
+        "schedule": "每周四晚 8-10点（美东时间）"
+      },
+      "advanced": {
+        "tag": "热门",
+        "title": "数据分析进阶班",
+        "description": "进阶 Python、PySpark 和机器学习，面向数据专业人士。涵盖大数据处理、A/B测试和ML管道。",
+        "curriculum": [
+          "进阶 Python 数据分析",
+          "数据管道自动化",
+          "销售与营销分析",
+          "PySpark 大数据处理",
+          "A/B 测试与实验设计",
+          "机器学习应用"
+        ],
+        "period": "12 周",
+        "students": "380+",
+        "level": "进阶",
+        "schedule": "每周日晚 8-10点（美东时间）"
+      },
+      "ai": {
+        "tag": "新开",
+        "title": "AI 实战训练营",
+        "description": "构建企业级 GenAI 应用，涵盖 RAG、Fine-tuning 和 AI Agents。学习 Gemini、Google Cloud Vertex AI 和 Databricks。",
+        "curriculum": [
+          "LLM 基础（Gemini）",
+          "检索增强生成（RAG）",
+          "模型微调与部署",
+          "AI Agents 开发",
+          "Web 应用部署",
+          "生产级 GenAI 项目"
+        ],
+        "period": "8 周",
+        "students": "280+",
+        "level": "进阶",
+        "schedule": "每周二晚 8-10点（美东时间）"
+      },
+      "project": {
+        "tag": "",
+        "title": "数据分析项目实战班",
+        "description": "应用真实商业数据分析项目。建立你的作品集，涵盖客户留存、数字营销、供应链和零售分析。",
+        "curriculum": [
+          "客户留存分析",
+          "数字营销分析",
+          "零售供应链优化",
+          "零售店数据分析",
+          "作品集开发",
+          "工作面试准备"
+        ],
+        "period": "8 周",
+        "students": "290+",
+        "level": "进阶",
+        "schedule": "每周二晚 8-10点（美东时间）"
+      }
+    }
+  },
+  "video": {
+    "eyebrow": "亲眼见证",
+    "headline": "你将学会什么",
+    "subheadline": "观看我们学生制作的真实数据管道项目——这就是你在课堂上将学到的实战技能。"
+  },
+  "features": {
+    "eyebrow": "为什么选择我们",
+    "headline": "成功所需的一切",
+    "subheadline": "我们不只是教授技能——我们引导你从学生到加拿大职场专业人士的完整旅程。",
+    "items": {
+      "expert": {
+        "title": "行业专家授课",
+        "description": "我们所有的导师都是在加拿大公司工作5年以上的专业人士，为每堂课带来真实世界经验。"
+      },
+      "career": {
+        "title": "1对1职业辅导",
+        "description": "专属职业规划导师，在课程期间提供简历优化、面试准备和工作匹配帮助。"
+      },
+      "network": {
+        "title": "校友网络",
+        "description": "加入我们专属社区中的1,500+校友——获得内推、工作机会和那些曾经处于你位置的人的指导。"
+      },
+      "flexible": {
+        "title": "灵活学习",
+        "description": "在线直播课程附带录像。提供周末和晚间班次。边工作边学习或边安顿边学习。"
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "学员感言",
+    "headline": "来自我们的校友",
+    "subheadline": "真实故事，真实学员，在加拿大实现了职业转型。",
+    "items": {
+      "wei": {
+        "quote": "完成课程后3个月内，我在多伦多一家金融科技公司找到了数据分析师的工作。作品集项目正是加拿大雇主想看到的。",
+        "name": "陈伟",
+        "title": "数据分析师 @ 金融科技公司，多伦多",
+        "from": "之前：会计，上海"
+      },
+      "liu": {
+        "quote": "AI训练营让我从后端开发转型为机器学习工程师。我的薪水增加了40%，现在为一家美国公司全职远程工作。",
+        "name": "刘玉婷",
+        "title": "机器学习工程师 @ 美国科技公司（远程）",
+        "from": "之前：软件开发，北京"
+      },
+      "zhang": {
+        "quote": "移民指导非常宝贵。他们帮助我了解加拿大的招聘流程，我在登陆后6周内收到了第一份工作录用通知。",
+        "name": "张大卫",
+        "title": "商业分析师 @ 电商公司，温哥华",
+        "from": "之前：市场营销，香港"
+      }
+    }
+  },
+  "cta": {
+    "eyebrow": "从今天开始",
+    "headline": "准备好启动你的加拿大职业生涯了吗？",
+    "subheadline": "加入数千名已在加拿大安家的国际专业人士。你的旅程从一次点击开始。",
+    "button": "预约免费咨询",
+    "note": "无需承诺。包含15分钟免费职业评估。"
+  },
+  "contact": {
+    "eyebrow": "联系我们",
+    "headline": "我们随时帮助你",
+    "subheadline": "有问题吗？想了解更多关于我们项目的信息？联系我们，我们会在24小时内回复你。",
+    "form": {
+      "title": "给我们留言",
+      "name": "姓名",
+      "email": "电子邮件",
+      "phone": "电话号码",
+      "interest": "感兴趣的课程",
+      "selectCourse": "选择课程...",
+      "message": "留言",
+      "submit": "发送留言"
+    },
+    "booking": {
+      "title": "预约免费咨询",
+      "description": "与我们的顾问安排15分钟通话，讨论你的目标并找到合适的课程。",
+      "button": "安排通话"
+    },
+    "wechat": {
+      "title": "微信 / WeChat",
+      "name": "Charlene 二四 休",
+      "qrLabel": "扫码添加微信",
+      "qrLabelZh": "扫二维码，添加我为朋友"
+    }
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "collection": {
+      "title": "我们收集的信息",
+      "content": "我们收集你直接提供给我们的信息，例如当你填写表格、订阅我们的通讯或联系我们寻求支持时。这可能包括你的姓名、电子邮件地址、电话号码以及你选择提供的任何其他信息。"
+    },
+    "usage": {
+      "title": "我们如何使用你的信息",
+      "content": "我们使用我们收集的信息来提供、维护和改进我们的服务，与你沟通，并开发新的服务。我们还可能使用你的信息发送营销和推广通信。"
+    },
+    "sharing": {
+      "title": "信息共享",
+      "content": "我们不会出售你的个人信息。我们可能会与代表我们执行服务的第三方服务提供商共享你的信息，例如支付处理和电子邮件传递。"
+    },
+    "security": {
+      "title": "数据安全",
+      "content": "我们实施适当的技术和组织措施，以保护你的个人信息免受未经授权的访问、更改、披露或破坏。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "content": "如果你对本隐私政策有任何疑问，请通过 hello@canadacareer.ca 联系我们。"
+    }
+  },
+  "terms": {
+    "title": "服务条款",
+    "acceptance": {
+      "title": "接受条款",
+      "content": "通过访问和使用我们的服务，你接受并同意受这些服务条款和我们的隐私政策的约束。如果你不同意这些条款，请不要使用我们的服务。"
+    },
+    "services": {
+      "title": "我们的服务",
+      "content": "CanadaCareer 提供职业培训项目、辅导服务和教育内容。我们保留随时修改或停止任何服务的权利。"
+    },
+    "payment": {
+      "title": "付款条款",
+      "content": "报名时需付款。我们接受网站上显示的主要信用卡和其他付款方式。除非另有说明，所有费用均为加元。"
+    },
+    "refund": {
+      "title": "退款政策",
+      "content": "如果你对课程不满意，我们在报名后7天内提供全额退款。7天后，退款将根据参加的课时数按比例计算。"
+    },
+    "intellectual": {
+      "title": "知识产权",
+      "content": "提供的所有课程材料、视频和内容均为 CanadaCareer 的财产，并受版权法保护。未经书面许可，你不得复制、分发或共享这些材料。"
+    }
+  },
+  "footer": {
+    "tagline": "助力国际人才在加拿大取得成功。",
+    "quickLinks": "快速链接",
+    "programs": "培训项目",
+    "contact": "联系我们",
+    "email": "电子邮件",
+    "phone": "电话",
+    "address": "地址",
+    "addressValue": "加拿大，安大略省，多伦多",
+    "followUs": "关注我们",
+    "rights": "版权所有。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "about": {
+    "eyebrow": "关于我们",
+    "headline": "我们的故事",
+    "intro": "由移民创立，为移民服务。我们理解加拿大就业市场，因为我们亲身经历过。",
+    "mission": {
+      "eyebrow": "我们的使命",
+      "headline": "缩小国际经验与加拿大成功之间的差距",
+      "content": "当我们作为国际学生和移民来到加拿大时，我们面临着你今天面临的同样挑战：外国证书不被认可、缺乏加拿大工作经验，以及不知道如何建立人脉。我们创建 CanadaCareer 来解决这些问题——通过实用技能、真实人脉和诚实的指导。"
+    },
+    "stats": {
+      "location": "多伦多，安大略省",
+      "locationSub": "加拿大的门户城市",
+      "alumni": "1,500+ 校友",
+      "alumniSub": "遍布加拿大及海外",
+      "rating": "4.9/5 评分",
+      "ratingSub": "来自 400+ 条评价"
+    },
+    "team": {
+      "eyebrow": "认识团队",
+      "headline": "你旅程中的向导",
+      "members": {
+        "sarah": {
+          "name": "Sarah Liu",
+          "role": "创始人兼首席执行官",
+          "bio": "前加拿大皇家银行人力资源总监。10年以上帮助新移民找到第一份加拿大工作的经验。"
+        },
+        "michael": {
+          "name": "Michael Zhang",
+          "role": "数据项目主管",
+          "bio": "多伦多金融科技公司高级数据科学家。为新移民开发了3套分析课程。"
+        },
+        "amy": {
+          "name": "Amy Wang",
+          "role": "AI 项目主管",
+          "bio": "美国科技巨头机器学习工程师（远程）。热衷于让AI变得易于接触。"
+        },
+        "james": {
+          "name": "James Chen",
+          "role": "职业教练",
+          "bio": "认证加拿大职业顾问。已帮助800+移民进行简历和面试准备。"
+        }
+      }
+    },
+    "cta": {
+      "headline": "准备好书写你自己的故事了吗？",
+      "button": "联系我们"
+    }
+  },
+  "workshops": {
+    "eyebrow": "免费学习资源",
+    "headline": "Victoria 数据工作坊录像",
+    "subheadline": "观看免费工作坊录像，学习数据分析技能。",
+    "items": [
+      {
+        "title": "数据技术面试指南",
+        "videoId": "-Y-8BFE5lpM"
+      },
+      {
+        "title": "24小时数据面试大师课",
+        "videoId": "tBpcm-OF0J0"
+      },
+      {
+        "title": "SQL 面试问题",
+        "videoId": "litoluZCnXo"
+      },
+      {
+        "title": "免费 Python 数据分析",
+        "videoId": "3ne4lKYhMmE"
+      },
+      {
+        "title": "Python 面试与应用",
+        "videoId": "9bAY2E2pfRE"
+      },
+      {
+        "title": "热门 AI 数据工具",
+        "videoId": "fJURzCi6CEA"
+      },
+      {
+        "title": "Canvas 分析师基础",
+        "videoId": "LUkPjhFY3BQ"
+      }
+    ]
+  },
+  "success": {
+    "eyebrow": "学员成功故事",
+    "headline": "从零到数据专家——真实的职场蜕变",
+    "subheadline": "观看并阅读真实学员如何从无加拿大经验到拿下梦寐以求的数据工作。",
+    "videoSection": "视频见证",
+    "storiesSection": "成功故事",
+    "watchVideo": "观看故事",
+    "viewOffer": "查看录用",
+    "videos": [
+      {
+        "name": "Russel",
+        "platform": "youtube",
+        "videoId": "xzROxVN3GcI",
+        "result": "数据分析师",
+        "note": "Victoria 成功故事",
+        "thumbnail": "/images/students/yt_russel.jpg"
+      },
+      {
+        "name": "Linda",
+        "platform": "youtube",
+        "videoId": "QaNCyE6GOig",
+        "result": "数据分析师",
+        "note": "Victoria 班级",
+        "thumbnail": "/images/students/yt_linda.jpg"
+      },
+      {
+        "name": "Anna",
+        "platform": "youtube",
+        "videoId": "aq0i5swhoCI",
+        "result": "数据分析师",
+        "note": "Victoria 班级",
+        "thumbnail": "/images/students/yt_anna.jpg"
+      },
+      {
+        "name": "James",
+        "platform": "youtube",
+        "videoId": "yCCGk5tCHZM",
+        "result": "数据分析师",
+        "note": "Victoria 班级",
+        "thumbnail": "/images/students/yt_james.jpg"
+      },
+      {
+        "name": "Sue",
+        "platform": "youtube",
+        "videoId": "EysRopcGQIk",
+        "result": "数据分析师",
+        "note": "10年经验 US → $80K 美元/年",
+        "thumbnail": "/images/students/yt_sue.jpg"
+      },
+      {
+        "name": "COCO",
+        "platform": "vimeo",
+        "videoId": "1146668304",
+        "result": "数据分析师",
+        "note": "视频 01:07:45 处",
+        "thumbnail": "/images/students/page_25.png"
+      },
+      {
+        "name": "Landon",
+        "platform": "vimeo",
+        "videoId": "1161169519",
+        "result": "数据科学家",
+        "note": "$100K+/年 物理 → DS",
+        "thumbnail": "/images/students/page_09.png"
+      }
+    ],
+    "stories": [
+      {
+        "name": "Yvonne",
+        "from": "10年护士经验",
+        "to": "商业数据分析师",
+        "salary": "$100K+ 美元/年",
+        "location": "硅谷",
+        "quote": "对于初学者来说，朱老师的课程真的很棒。",
+        "tag": "职业转型",
+        "photo": "/images/students/page_12.png"
+      },
+      {
+        "name": "Derrick",
+        "from": "便利店员工",
+        "to": "银行数据分析师",
+        "salary": "2个月",
+        "location": "加拿大",
+        "quote": "一轮面试就拿到了工作。技能正是雇主想要的。",
+        "tag": "快速通道",
+        "photo": "/images/students/page_14.png"
+      },
+      {
+        "name": "Rui",
+        "from": "商科专业，零数据基础",
+        "to": "预算分析师",
+        "salary": "$85K 美元/年",
+        "location": "美国",
+        "quote": "5轮面试，每一轮都有朱老师亲自辅导。",
+        "tag": "5轮面试",
+        "photo": "/images/students/page_02.png"
+      },
+      {
+        "name": "小吴",
+        "from": "工程背景",
+        "to": "政府数据分析师",
+        "salary": "$100K/年",
+        "location": "加拿大",
+        "quote": "SQL、Tableau、AI——三个月我就拿到了政府工作。",
+        "tag": "政府职位",
+        "photo": "/images/students/page_10.png"
+      },
+      {
+        "name": "Kate",
+        "from": "UBC 统计学毕业",
+        "to": "数据运营专员",
+        "salary": "美国投资公司",
+        "location": "美国",
+        "quote": "实习项目在简历筛选和背景调查方面帮助巨大。",
+        "tag": "应届生",
+        "photo": "/images/students/page_24.png"
+      },
+      {
+        "name": "UBC 数学毕业",
+        "from": "数学专业",
+        "to": "五大银行商业数据分析师",
+        "salary": "10个月",
+        "location": "加拿大",
+        "quote": "简历上的项目是我被选中的主要原因。申请了100+个工作。",
+        "tag": "五大银行",
+        "photo": "/images/students/page_03.png"
+      },
+      {
+        "name": "Landon",
+        "from": "物理专业",
+        "to": "数据科学家",
+        "salary": "$100K+/年",
+        "location": "汽车 Tier 1",
+        "quote": "物理转数据科学。用 Python 和数据库做预测性维护。",
+        "tag": "数据科学家",
+        "photo": "/images/students/page_09.png"
+      },
+      {
+        "name": "技术支持录用",
+        "from": "课程毕业生",
+        "to": "技术支持分析师",
+        "salary": "工作录用",
+        "location": "加拿大",
+        "quote": "模拟面试练习让一切变得不同。",
+        "tag": "新录用",
+        "photo": "/images/students/page_06.png"
+      }
+    ]
+  }
+}
