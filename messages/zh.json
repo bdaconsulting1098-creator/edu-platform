@@ -277,25 +277,25 @@
       "eyebrow": "认识团队",
       "headline": "你旅程中的向导",
       "members": {
-        "sarah": {
-          "name": "Sarah Liu",
-          "role": "创始人兼首席执行官",
-          "bio": "前加拿大皇家银行人力资源总监。10年以上帮助新移民找到第一份加拿大工作的经验。"
+        "principal": {
+          "name": "Maria Sun",
+          "role": "校长",
+          "bio": "以数据教育和职业培训赋能新移民为愿景，引领学校发展。"
         },
-        "michael": {
-          "name": "Michael Zhang",
-          "role": "数据项目主管",
-          "bio": "多伦多金融科技公司高级数据科学家。为新移民开发了3套分析课程。"
+        "vice": {
+          "name": "Henry",
+          "role": "副校长",
+          "bio": "支持所有项目的学术卓越与学生成功。"
         },
-        "amy": {
-          "name": "Amy Wang",
-          "role": "AI 项目主管",
-          "bio": "美国科技巨头机器学习工程师（远程）。热衷于让AI变得易于接触。"
+        "teacher": {
+          "name": "Charlene Ding",
+          "role": "班主任",
+          "bio": "专注的班主任，为学生提供个性化支持，陪伴学习全程。"
         },
-        "james": {
-          "name": "James Chen",
-          "role": "职业教练",
-          "bio": "认证加拿大职业顾问。已帮助800+移民进行简历和面试准备。"
+        "instructor": {
+          "name": "朱老师",
+          "role": "授课老师",
+          "bio": "经验丰富的授课老师，教授数据分析、SQL、Power BI 和 AI 实战技能。"
         }
       }
     },

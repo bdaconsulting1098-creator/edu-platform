@@ -277,25 +277,25 @@
       "eyebrow": "Meet the Team",
       "headline": "Your Guides on This Journey",
       "members": {
-        "sarah": {
-          "name": "Sarah Liu",
-          "role": "Founder & CEO",
-          "bio": "Former HR Director at RBC. 10+ years helping newcomers land their first Canadian job."
+        "principal": {
+          "name": "Maria Sun",
+          "role": "Principal",
+          "bio": "Leading the school with a vision to empower immigrants through data education and career training."
         },
-        "michael": {
-          "name": "Michael Zhang",
-          "role": "Head of Data Programs",
-          "bio": "Senior Data Scientist at a Toronto fintech. Built 3 analytics curricula for newcomers."
+        "vice": {
+          "name": "Henry",
+          "role": "Vice Principal",
+          "bio": "Supporting academic excellence and student success across all programs."
         },
-        "amy": {
-          "name": "Amy Wang",
-          "role": "AI Program Lead",
-          "bio": "ML Engineer at a US tech giant (remote). Passionate about making AI accessible."
+        "teacher": {
+          "name": "Charlene Ding",
+          "role": "Head Teacher",
+          "bio": "Dedicated class teacher guiding students through their learning journey with personalized support."
         },
-        "james": {
-          "name": "James Chen",
-          "role": "Career Coach",
-          "bio": "Certified Canadian career counselor. Has helped 800+ immigrants with resume & interview prep."
+        "instructor": {
+          "name": "朱老师",
+          "role": "Lead Instructor",
+          "bio": "Experienced instructor teaching data analysis, SQL, Power BI, and AI practical skills."
         }
       }
     },
