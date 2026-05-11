@@ -16,9 +16,14 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
     redirect(`/${locale}/login`)
   }
 
+  const installVideos = [
+    { id: 'aqO9E4O24pM', titleKey: 'videoTitles.pbiInstall' },
+    { id: '7DNuDOt9KuI', titleKey: 'videoTitles.tableauInstall' },
+    { id: 'NjTDjVFkJtg', titleKey: 'videoTitles.databricksInstall' },
+    { id: 'WHXOoiBk89Y', titleKey: 'videoTitles.databricksSetup' },
+  ]
+
   const level1Videos = [
-    { id: '4EObREikjwU', titleKey: 'videoTitles.install1' },
-    { id: 'Mq_i7DA2Uo4', titleKey: 'videoTitles.install2' },
     { id: '5waGp0n0xXM', titleKey: 'videoTitles.pbi1' },
     { id: 'JNM5aWZzVtM', titleKey: 'videoTitles.pbi2' },
     { id: '3ycCQIh9xOY', titleKey: 'videoTitles.pbi3' },
@@ -42,7 +47,7 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
     { id: '-Pfr7KOfm5c', titleKey: 'videoTitles.advanced' },
   ]
 
-  const totalVideos = level1Videos.length + level2Videos.length
+  const totalVideos = installVideos.length + level1Videos.length + level2Videos.length
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -60,6 +65,33 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
       </header>
 
       <main className="max-w-7xl mx-auto py-8 px-4 space-y-12">
+        {/* Install Section */}
+        <section>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+            🔧 {t('install.title')}
+            <span className="text-sm font-normal text-gray-500">({installVideos.length})</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {installVideos.map((video, index) => (
+              <div key={`inst-${video.id}`} className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="aspect-video">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${video.id}`}
+                    title={t(video.titleKey)}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-semibold text-gray-900">{t(video.titleKey)}</h3>
+                  <p className="text-sm text-gray-500 mt-1">{t('install.lesson', { n: index + 1 })}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* Level 1 */}
         <section>
           <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">

@@ -492,6 +492,10 @@
     "title": "BDA Course Platform",
     "total": "{count} Videos Total",
     "logout": "Logout",
+    "install": {
+      "title": "Installation - Environment Setup",
+      "lesson": "Lesson {n}"
+    },
     "level1": {
       "title": "Level 1 - Essential Tools",
       "lesson": "Lesson {n}"
@@ -505,8 +509,10 @@
     "tip2": "Click the fullscreen button in the bottom-right corner",
     "tip3": "Watch in order for the best learning experience",
     "videoTitles": {
-      "install1": "Install Part 1",
-      "install2": "Install Part 2",
+      "pbiInstall": "Power BI Installation",
+      "tableauInstall": "Tableau Installation",
+      "databricksInstall": "Databricks Installation",
+      "databricksSetup": "Databricks Setup Guide",
       "pbi1": "POWER BI 1",
       "pbi2": "POWER BI 2",
       "pbi3": "POWER BI 3",

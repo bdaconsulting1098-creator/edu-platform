@@ -492,6 +492,10 @@
     "title": "BDA 课程平台",
     "total": "共 {count} 个视频",
     "logout": "退出登录",
+    "install": {
+      "title": "安装教程 - 环境配置",
+      "lesson": "第 {n} 课"
+    },
     "level1": {
       "title": "Level 1 - 基础工具课程",
       "lesson": "第 {n} 课"
@@ -505,8 +509,10 @@
     "tip2": "点击视频右下角可全屏观看",
     "tip3": "建议按顺序观看，掌握完整知识体系",
     "videoTitles": {
-      "install1": "安装教程（上）",
-      "install2": "安装教程（下）",
+      "pbiInstall": "Power BI 安装教程",
+      "tableauInstall": "Tableau 安装教程",
+      "databricksInstall": "Databricks 安装教程",
+      "databricksSetup": "Databricks 配置指南",
       "pbi1": "Power BI 入门",
       "pbi2": "Power BI 进阶",
       "pbi3": "Power BI 实战",
