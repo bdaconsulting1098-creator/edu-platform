@@ -88,7 +88,7 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
             {/* GitHub Alert */}
             <div className="bg-orange-100 border-2 border-orange-500 rounded-xl p-6 shadow-lg">
               <p className="text-lg font-bold text-orange-900">
-                ⚠️ GitHub link needed for Databricks setup：
+                ⚠️ At 19:01 - GitHub link needed for Databricks setup：
               </p>
               <a
                 href="https://github.com/bdaconsulting1098-creator/bda_course.git"
