@@ -5,7 +5,7 @@ import { ArrowRight, MapPin, Users, Award } from "lucide-react";
 export default async function AboutPage() {
   const t = await getTranslations("about");
 
-  const teamKeys = ["sarah", "michael", "amy", "james"] as const;
+  const teamKeys = ["principal", "vice", "teacher", "instructor"] as const;
   const emojis = ["👩‍💼", "👨‍💻", "👩‍🔬", "👨‍🏫"];
 
   return (
