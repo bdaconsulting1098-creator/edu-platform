@@ -494,7 +494,8 @@
     "logout": "Logout",
     "install": {
       "title": "Installation - Environment Setup",
-      "lesson": "Lesson {n}"
+      "lesson": "Lesson {n}",
+      "githubNote": "At 19:01 in the video - GitHub link needed for Databricks setup:"
     },
     "level1": {
       "title": "Level 1 - Essential Tools",

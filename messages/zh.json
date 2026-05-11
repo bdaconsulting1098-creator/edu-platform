@@ -494,7 +494,8 @@
     "logout": "退出登录",
     "install": {
       "title": "安装教程 - 环境配置",
-      "lesson": "第 {n} 课"
+      "lesson": "第 {n} 课",
+      "githubNote": "在视频 19:01 分钟时 - GitHub link needed for Databricks setup："
     },
     "level1": {
       "title": "Level 1 - 基础工具课程",
