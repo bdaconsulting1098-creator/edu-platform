@@ -17,10 +17,7 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
   }
 
   const installVideos = [
-    { id: 'aqO9E4O24pM', titleKey: 'videoTitles.pbiInstall' },
-    { id: '7DNuDOt9KuI', titleKey: 'videoTitles.tableauInstall' },
-    { id: 'NjTDjVFkJtg', titleKey: 'videoTitles.databricksInstall' },
-    { id: 'WHXOoiBk89Y', titleKey: 'videoTitles.databricksSetup' },
+    { id: 'mPMdqfE9cfw', titleKey: 'videoTitles.install' },
   ]
 
   const level1Videos = [

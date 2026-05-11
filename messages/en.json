@@ -509,10 +509,7 @@
     "tip2": "Click the fullscreen button in the bottom-right corner",
     "tip3": "Watch in order for the best learning experience",
     "videoTitles": {
-      "pbiInstall": "Power BI Installation",
-      "tableauInstall": "Tableau Installation",
-      "databricksInstall": "Databricks Installation",
-      "databricksSetup": "Databricks Setup Guide",
+      "install": "Installation - Environment Setup",
       "pbi1": "POWER BI 1",
       "pbi2": "POWER BI 2",
       "pbi3": "POWER BI 3",
