@@ -86,28 +86,18 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
             </div>
             
             {/* GitHub Alert */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-400 rounded-xl p-6 shadow-lg">
-              <div className="flex items-start gap-3 mb-4">
-                <span className="text-4xl animate-pulse">⚠️</span>
-                <div>
-                  <h4 className="text-xl font-bold text-orange-800">GitHub Link Needed!</h4>
-                  <p className="text-sm font-semibold text-orange-700 mt-1">Databricks setup 必需</p>
-                </div>
-              </div>
+            <div className="bg-orange-100 border-2 border-orange-500 rounded-xl p-6 shadow-lg">
+              <p className="text-lg font-bold text-orange-900">
+                ⚠️ GitHub link needed for Databricks setup：
+              </p>
               <a
                 href="https://github.com/bdaconsulting1098-creator/bda_course.git"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-4 rounded-lg transition-all transform hover:scale-105 shadow-md text-lg"
+                className="mt-3 block text-blue-700 font-bold text-xl hover:underline break-all"
               >
-                📦 克隆课程仓库 (Clone Repo)
+                https://github.com/bdaconsulting1098-creator/bda_course.git
               </a>
-              <p className="mt-4 text-sm text-gray-700 leading-relaxed">
-                安装 Databricks 前，请先克隆此仓库到本地：<br/>
-                <code className="block mt-2 bg-white p-2 rounded text-xs text-red-600 font-mono break-all">
-                  git clone https://github.com/bdaconsulting1098-creator/bda_course.git
-                </code>
-              </p>
             </div>
           </div>
         </section>
