@@ -487,5 +487,53 @@
         "photo": "/images/students/page_06.png"
       }
     ]
+  },
+  "videosPage": {
+    "title": "BDA Course Platform",
+    "total": "{count} Videos Total",
+    "logout": "Logout",
+    "level1": {
+      "title": "Level 1 - Essential Tools",
+      "lesson": "Lesson {n}"
+    },
+    "level2": {
+      "title": "Level 2 - Advanced Data Engineering",
+      "lesson": "Lesson {n}"
+    },
+    "tips": "Tips:",
+    "tip1": "All videos play directly on this page!",
+    "tip2": "Click the fullscreen button in the bottom-right corner",
+    "tip3": "Watch in order for the best learning experience",
+    "videoTitles": {
+      "install1": "Install Part 1",
+      "install2": "Install Part 2",
+      "pbi1": "POWER BI 1",
+      "pbi2": "POWER BI 2",
+      "pbi3": "POWER BI 3",
+      "sql1": "SQL 1",
+      "sql2": "SQL 2",
+      "sql3": "SQL 3",
+      "sql4": "SQL 4",
+      "tableau1": "Tableau 1",
+      "tableau2": "Tableau 2",
+      "python1": "Python Basics 1",
+      "python2": "Python Basics 2",
+      "spark1": "SPARK 1",
+      "spark2": "SPARK 2",
+      "databricks1": "Databricks+SPARK+WORKFLOW 1",
+      "databricks2": "Databricks+SPARK+WORKFLOW 2",
+      "databricks3": "Databricks+SPARK+WORKFLOW 3",
+      "databricks4": "Databricks+SPARK+WORKFLOW 4",
+      "advanced": "Advanced Analytics 1"
+    }
+  },
+  "loginPage": {
+    "title": "Login - BDA Course Platform",
+    "subtitle": "Enter password to access course videos",
+    "passwordLabel": "Password",
+    "placeholder": "Enter password...",
+    "button": "Login",
+    "error": "Incorrect password, please try again",
+    "backHome": "Back to Home"
   }
 }
