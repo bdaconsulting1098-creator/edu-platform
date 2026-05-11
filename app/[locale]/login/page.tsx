@@ -23,7 +23,7 @@ export default function LoginPage() {
       })
 
       if (res.ok) {
-        router.push('/courses')
+        router.push('/videos')
       } else {
         setError('密码错误，请重试')
       }
