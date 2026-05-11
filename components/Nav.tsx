@@ -53,13 +53,6 @@ export function Nav() {
                 {t(link.key)}
               </Link>
             ))}
-            {/* Login Link */}
-            <Link
-              href="/login"
-              className="text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 transition-colors px-4 py-2 rounded-lg"
-            >
-              🔐 Login
-            </Link>
           </nav>
 
           {/* Right side */}
