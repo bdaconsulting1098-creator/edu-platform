@@ -53,10 +53,20 @@ export function Nav() {
                 {t(link.key)}
               </Link>
             ))}
+            {/* Login Link */}
+            <Link
+              href="/login"
+              className="text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 transition-colors px-4 py-2 rounded-lg"
+            >
+              🔐 Login
+            </Link>
           </nav>
 
           {/* Right side */}
           <div className="flex items-center gap-3">
+            <Link href="/login" className="btn-primary bg-indigo-600 hover:bg-indigo-700 hidden sm:inline-flex text-sm px-4 py-2">
+              🔐 Login
+            </Link>
             <button
               onClick={handleLocaleSwitch}
               className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-primary border border-primary rounded-lg hover:bg-primary hover:text-white transition-all"
@@ -95,9 +105,16 @@ export function Nav() {
                 </Link>
               ))}
               <Link
+                href="/login"
+                onClick={() => setMobileOpen(false)}
+                className="text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 transition-colors px-4 py-3 rounded-lg text-center mt-2"
+              >
+                🔐 Login
+              </Link>
+              <Link
                 href="/contact"
                 onClick={() => setMobileOpen(false)}
-                className="btn-primary text-sm text-center mt-2"
+                className="btn-secondary text-sm text-center mt-2"
               >
                 {t("contact")}
               </Link>
