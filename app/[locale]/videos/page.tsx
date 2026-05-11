@@ -17,7 +17,17 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
   }
 
   const videos = [
-    { id: '4EObREikjwU', date: '2026', title: 'BDA TOOLS 课程' },
+    { id: '4EObREikjwU', title: 'Install Part 1' },
+    { id: 'Mq_i7DA2Uo4', title: 'Install Part 2' },
+    { id: '5waGp0n0xXM', title: 'POWER BI 1' },
+    { id: 'JNM5aWZzVtM', title: 'POWER BI 2' },
+    { id: '3ycCQIh9xOY', title: 'POWER BI 3' },
+    { id: 'w-dTQArFwR8', title: 'SQL 1' },
+    { id: 'Ix8CL2ARop8', title: 'SQL 2' },
+    { id: '6zZ0THzkga8', title: 'SQL 3' },
+    { id: 'BPYYlipkHXA', title: 'SQL 4' },
+    { id: 'psn0x00jCcY', title: 'Tableau 1' },
+    { id: 'kptJH1wWSsQ', title: 'Tableau 2' },
   ]
 
   return (
@@ -26,8 +36,8 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto py-6 px-4 flex justify-between items-center">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">🎓 BDA Career 课程平台</h1>
-            <p className="mt-1 text-gray-600">BDA TOOLS 工具课程（共7个视频）</p>
+            <h1 className="text-3xl font-bold text-gray-900">🎓 BDA Level 1</h1>
+            <p className="mt-1 text-gray-600">BDA TOOLS 课程（共11个视频）</p>
           </div>
           <a href="/api/logout" className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
             🚪 退出登录
