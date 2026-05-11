@@ -1,10 +1,20 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { cookies } from 'next/headers'
+import { redirect } from 'next/navigation'
 
 export default async function VideosPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
   setRequestLocale(locale)
   
   const t = await getTranslations()
+  
+  // 检查登录状态
+  const cookieStore = await cookies()
+  const isLoggedIn = cookieStore.get('auth')?.value === 'logged-in'
+  
+  if (!isLoggedIn) {
+    redirect(`/${locale}/login`)
+  }
 
   const videos = [
     { id: '5waGp0n0xXM', date: '20260206', title: 'BDA | TOOLS | 20260206' },
@@ -20,9 +30,14 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4">
-          <h1 className="text-3xl font-bold text-gray-900">🎓 BDA Career 课程平台</h1>
-          <p className="mt-1 text-gray-600">BDA TOOLS 工具课程（共7个视频）</p>
+        <div className="max-w-7xl mx-auto py-6 px-4 flex justify-between items-center">
+          <div>
+            <h1 className="text-3xl font-bold text-gray-900">🎓 BDA Career 课程平台</h1>
+            <p className="mt-1 text-gray-600">BDA TOOLS 工具课程（共7个视频）</p>
+          </div>
+          <a href="/api/logout" className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
+            🚪 退出登录
+          </a>
         </div>
       </header>
 
