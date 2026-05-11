@@ -66,33 +66,21 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {level1Videos.map((video, index) => (
-              <a
-                key={`l1-${video.id}`}
-                href={`https://www.youtube.com/watch?v=${video.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-              >
-                {/* Thumbnail */}
-                <div className="aspect-video bg-gray-900 relative">
-                  <img
-                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
-                    alt={video.title}
-                    className="w-full h-full object-cover"
+              <div key={`l1-${video.id}`} className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="aspect-video">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${video.id}`}
+                    title={video.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                    <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center">
-                      <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
                 </div>
                 <div className="p-4">
                   <h3 className="font-semibold text-gray-900">{video.title}</h3>
                   <p className="text-sm text-gray-500 mt-1">Level 1 - 第 {index + 1} 课</p>
                 </div>
-              </a>
+              </div>
             ))}
           </div>
         </section>
@@ -105,33 +93,21 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {level2Videos.map((video, index) => (
-              <a
-                key={`l2-${video.id}`}
-                href={`https://www.youtube.com/watch?v=${video.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-              >
-                {/* Thumbnail */}
-                <div className="aspect-video bg-gray-900 relative">
-                  <img
-                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
-                    alt={video.title}
-                    className="w-full h-full object-cover"
+              <div key={`l2-${video.id}`} className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div className="aspect-video">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${video.id}`}
+                    title={video.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                    <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center">
-                      <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
                 </div>
                 <div className="p-4">
                   <h3 className="font-semibold text-gray-900">{video.title}</h3>
                   <p className="text-sm text-gray-500 mt-1">Level 2 - 第 {index + 1} 课</p>
                 </div>
-              </a>
+              </div>
             ))}
           </div>
         </section>
@@ -140,8 +116,9 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
         <div className="mt-8 p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
           <p className="text-blue-800">
             <strong>💡 使用提示：</strong><br/>
-            1. 点击视频卡片在新窗口打开YouTube观看<br/>
-            2. 建议按顺序观看，掌握完整知识体系
+            1. 所有视频都可以直接嵌入播放！<br/>
+            2. 点击视频右下角可全屏观看<br/>
+            3. 建议按顺序观看，掌握完整知识体系
           </p>
         </div>
       </main>
