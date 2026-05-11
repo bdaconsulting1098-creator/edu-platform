@@ -68,24 +68,47 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
             🔧 {t('install.title')}
             <span className="text-sm font-normal text-gray-500">({installVideos.length})</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {installVideos.map((video, index) => (
-              <div key={`inst-${video.id}`} className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="aspect-video">
-                  <iframe
-                    src={`https://www.youtube.com/embed/${video.id}`}
-                    title={t(video.titleKey)}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="w-full h-full"
-                  />
-                </div>
-                <div className="p-4">
-                  <h3 className="font-semibold text-gray-900">{t(video.titleKey)}</h3>
-                  <p className="text-sm text-gray-500 mt-1">{t('install.lesson', { n: index + 1 })}</p>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+            {/* Video */}
+            <div className="lg:col-span-2 bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="aspect-video">
+                <iframe
+                  src={`https://www.youtube.com/embed/${installVideos[0].id}`}
+                  title={t(installVideos[0].titleKey)}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900">{t(installVideos[0].titleKey)}</h3>
+              </div>
+            </div>
+            
+            {/* GitHub Alert */}
+            <div className="bg-gradient-to-br from-orange-50 to-red-50 border-2 border-orange-400 rounded-xl p-6 shadow-lg">
+              <div className="flex items-start gap-3 mb-4">
+                <span className="text-4xl animate-pulse">⚠️</span>
+                <div>
+                  <h4 className="text-xl font-bold text-orange-800">GitHub Link Needed!</h4>
+                  <p className="text-sm font-semibold text-orange-700 mt-1">Databricks setup 必需</p>
                 </div>
               </div>
-            ))}
+              <a
+                href="https://github.com/bdaconsulting1098-creator/bda_course.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-4 rounded-lg transition-all transform hover:scale-105 shadow-md text-lg"
+              >
+                📦 克隆课程仓库 (Clone Repo)
+              </a>
+              <p className="mt-4 text-sm text-gray-700 leading-relaxed">
+                安装 Databricks 前，请先克隆此仓库到本地：<br/>
+                <code className="block mt-2 bg-white p-2 rounded text-xs text-red-600 font-mono break-all">
+                  git clone https://github.com/bdaconsulting1098-creator/bda_course.git
+                </code>
+              </p>
+            </div>
           </div>
         </section>
 
