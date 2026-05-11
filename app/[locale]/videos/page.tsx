@@ -17,13 +17,7 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
   }
 
   const videos = [
-    { id: '5waGp0n0xXM', date: '20260206', title: 'BDA | TOOLS | 20260206' },
-    { id: 'JNM5aWZzVtM', date: '20260212', title: 'BDA | TOOLS | 20260212' },
-    { id: '3ycCQIh9xOY', date: '20260220', title: 'BDA | TOOLS | 20260220' },
-    { id: 'w-dTQArFwR8', date: '20260227', title: 'BDA | TOOLS | 20260227' },
-    { id: 'Ix8CL2ARop8', date: '20260306', title: 'BDA | TOOLS | 20260306' },
-    { id: '6zZ0THzkga8', date: '20260312', title: 'BDA | TOOLS | 20260312' },
-    { id: 'ryrwpwJ26T8', date: '20260129', title: 'BDA | TOOLS | PART2 | 20260129' },
+    { id: '4EObREikjwU', date: '2026', title: 'BDA TOOLS 课程' },
   ]
 
   return (
