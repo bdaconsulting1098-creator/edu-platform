@@ -305,9 +305,9 @@
     }
   },
   "workshops": {
-    "eyebrow": "免费学习资源",
-    "headline": "Victoria 数据工作坊录像",
-    "subheadline": "观看免费工作坊录像，学习数据分析技能。",
+    "eyebrow": "课程介绍",
+    "headline": "公开课与课程介绍",
+    "subheadline": "观看公开课录像，了解课程内容与教学风格。",
     "items": [
       {
         "title": "数据技术面试指南",

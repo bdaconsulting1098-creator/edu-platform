@@ -305,9 +305,9 @@
     }
   },
   "workshops": {
-    "eyebrow": "Free Learning Resources",
-    "headline": "Victoria Data Workshop Recordings",
-    "subheadline": "Watch free workshop recordings and learn data analytics skills.",
+    "eyebrow": "Course Introduction",
+    "headline": "Open Classes & Course Overview",
+    "subheadline": "Watch open class recordings to explore our curriculum and teaching style.",
     "items": [
       {
         "title": "Data Tech Interview Guide",
